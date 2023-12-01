@@ -1,0 +1,41 @@
+go to the project location and 
+git init
+
+to link with central repository
+git remote add origin github repository url
+
+git status
+git add *
+git status
+git commit -m "first commit"
+git config user.name "sachinsena1996@gmail.com"
+git config user.email "sachinsena1996@gmail.com"
+git commit -m "first commit"
+git push origin master --force
+
+
+
+
+when changes happen
+
+git status
+git add .
+git status
+git commit -m "second commit"
+git push origin master 
+
+
+when someone make changes to the project
+git pull url
+
+and refresh the project
+
+
+-->to see the available branches
+git branch
+
+-->to create branch
+git branch MyNewBranchName
+
+-->switch to the newly created branch
+git checkout MyNewBranchName
